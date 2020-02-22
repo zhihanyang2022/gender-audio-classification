@@ -1,4 +1,4 @@
-# wav2info Pilot Project
+# 🔊 wav2info Pilot Project 
 
 ## Goal
 
@@ -25,9 +25,11 @@ I plan not to model age because the age range available in this project is very 
 
 My concern with modeling gender: since there are only 12 female speakers, I don’t know how well a neural network trained on gender generalizes to unheard-of speakers. To improve generalizability, I plan to first train a neural network from scratch and then compare it with a fine-tuned version of a pretrained network. 
 
+Here are some exploratory data analysis:
+
+
+
 ## Audio Preprocessing
-
-
 
 
 
