@@ -6,6 +6,8 @@ The goal of this project is to extract speakers' genders from recordings. Gender
 
 You can also think of personal information as metadata. Metadata is the information ABOUT a speaker, not the information CONVEYED by his/her speech. For example, if I’m the speaker of interest, my metadata is that I’m a male under 30 with an Asian accent and the information conveyed by my speech is, for example, “Welcome to my project”.
 
+Here's a web demo for this project: <link here>. In this demo, you can record your own speech, have the classification pipeline run on your speech and get a classification.
+
 ## Dataset
 
 The dataset I chose for this [AudioMNIST](https://github.com/soerenab/AudioMNIST). I’ve copied and pasted the information about this dataset below:
