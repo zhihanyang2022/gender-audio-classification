@@ -2,9 +2,9 @@
 
 ## Goal
 
-The goal of this project is to extract personal information from human voice. This is a pilot study to test this idea first on a simple dataset before I create a more sophisticated dataset of my own. 
+The goal of this project is to extract speakers' genders from recordings. Gender is one of the most impersonal personal information but you can definitely think of how this technique can be applied for other kinds of personal information.
 
-You can think of personal information as meta-data. Meta-data is the information ABOUT a speaker, not the information CONVEYED by his/her speech. For example, if I’m the speaker, my meta-information is that I’m a male under 30 with a Asian accent and the information conveyed by my speech is, for example, “Welcome”.
+You can also think of personal information as metadata. Metadata is the information ABOUT a speaker, not the information CONVEYED by his/her speech. For example, if I’m the speaker of interest, my metadata is that I’m a male under 30 with an Asian accent and the information conveyed by my speech is, for example, “Welcome to my project”.
 
 ## Dataset
 
