@@ -1,4 +1,4 @@
-# 🔊 wav2info Pilot Project 
+# 🔊 Speaker Info Classification
 
 ## Goal
 
