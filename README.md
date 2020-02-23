@@ -1,4 +1,4 @@
-# 🔊 Speaker Info Classification
+# 👨👩 Speaker Info Classification
 
 ## Goal
 
