@@ -1,4 +1,4 @@
-# 👨👩 Speaker Info Classification
+# 👨👩 Speaker Gender Classifier
 
 Here's a web demo for this project: <link here>. In this demo, you can record your own speech, have the classification pipeline run on your speech and get a classification result.
 
