@@ -2,7 +2,7 @@
 
 ## Goal
 
-The goal of the wav2info project is to extract personal information from human voice. The goal of this pilot study is to test this idea first on a simple dataset before I create my own dataset. 
+The goal of this project is to extract personal information from human voice. The goal of this pilot study is to test this idea first on a simple dataset before I create my own dataset. 
 
 You can think of personal information as meta-data. Meta-data is the information ABOUT a speaker, not the information CONVEYED by his/her speech. For example, if I’m the speaker, my meta-information is that I’m a male under 30 with a Asian accent and the information conveyed by my speech is, for example, “Welcome”.
 
