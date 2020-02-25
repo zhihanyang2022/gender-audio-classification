@@ -29,7 +29,7 @@ My concern with modeling gender: since there are only 12 female speakers, I donâ
 
 Here are some exploratory data analysis:
 
-
+<img src='https://raw.githubusercontent.com/zhihanyang2022/speaker_info_classification/master/pngs/eda.png'>
 
 ## Feature Engineering
 
