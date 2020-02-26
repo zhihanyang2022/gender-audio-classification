@@ -1,4 +1,4 @@
-# 👨👩 Speaker Gender Classifier
+# 👨👩 Speaker Gender Classification
 
 Classify speech using spectrogram feature engineering and neural network.
 
