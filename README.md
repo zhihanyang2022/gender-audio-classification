@@ -1,6 +1,6 @@
 # Speaker Gender Classification 👨👩 
 
-Classify speech using spectrogram feature engineering and neural network.
+A speaker gender classifier built using MFCC feature engineering and a pre-trained ResNet-50. 
 
 ## Goal
 
