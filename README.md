@@ -5,6 +5,7 @@
 ## TODO
 
 - create two folders for classification under nb
+- finish README.md folder structure section
 
 ## Project description
 
