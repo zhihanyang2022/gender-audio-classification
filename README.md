@@ -50,6 +50,7 @@ You can run `scripts/record_wav.py` in command line to record yourself saying a 
 - 60 speakers (one directory per speaker).
 - 50 instances of each digit per speaker.
 - 30000 audio samples of spoken digits (0-9).
+- The metadata of each speaker (including gender) is stored in `audioMNIST_meta.txt`.
 - I chose gender because there are at least 10 instances of each gender (see below).
 - Caution: Since there are only 60 speakers, the training and validation sets overlap in terms of speakers (but not specific instances of speech). Future work should make sure that the training and validation sets do not overlap even in terms of speakers.
 - Exploratory data analysis (see `nb/eda.ipynb`):
