@@ -36,8 +36,6 @@ You can run `scripts/record_wav.py` in command line to record yourself saying a 
 
 ## Folder structure
 
-[TODO]
-
 - maps: contains two JSON files, one for each gender; each JSON file contains a mapping between the WAV filenames and the MFC JPEG filenames
 - mfc_dataset: contains the MFC JPEGs
 - nbs: contains the Jupyter notebooks
