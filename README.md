@@ -4,7 +4,7 @@
 
 ## TODO
 
-- create two folders for classification under nb
+- create two folders for classification under nb, and comment on them in File structure section
 - finish README.md folder structure section
 - toc: so that people can see GradCAM interpretation section
 
@@ -41,7 +41,8 @@ You can run `scripts/record_wav.py` in command line to record yourself saying a 
 - maps: contains two JSON files, one for each gender; each JSON file contains a mapping between the WAV filenames and the MFC JPEG filenames
 - mfc_dataset: contains the MFC JPEGs
 - nbs: contains the Jupyter notebooks
-- pngs: don't worry about it
+    - my_wav:
+    - my_mfc:
 - results: stores the results of slow computations
 - scripts: contains .py files of functions
 
