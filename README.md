@@ -2,11 +2,15 @@
 
 <img src='./pngs/ad.png'>
 
+## TODO
+
+- create two folders for classification under nb
+
 ## Record and classify your own voice
 
-[TODO]
-
 Please read section "Setup" and "Folder structure" first.
+
+You can run `scripts/record_wav.py` in command line to record yourself saying a digit (0-9). The recording lasts for one second so you need to say a digit as soon as you see "Speak now!" in the terminal. You can then move the WAV file into `nb/my_wavs`. Finally, you can run `nbs/04_deploy_model.py` to get classification(s).
 
 ## Table of content
 
