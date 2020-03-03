@@ -10,7 +10,7 @@
 
 This a deep-learning project. 
 
-It contains a ResNet-34 trained on 24000 WAVs labelled by gender and validated on 6000 WAVs. 
+It includes a ResNet-34 trained on 24000 WAVs labelled by gender and validated on 6000 WAVs. 
 
 The entire audio corpus consists of 30000 WAVs. 
 
