@@ -1,8 +1,10 @@
 import numpy as np
+import scipy.io.wavfile
+import scipy.misc
 import librosa
 from skimage.transform import resize
-import scipy.misc
 
+kDEBUG = False
 kSAMPLE_RATE = 48000
 
 def pad_signal(signal, target_len=47998):
@@ -28,11 +30,14 @@ def pre_emphasis(signal):
 def reshape(mfc):
     return resize(np.rollaxis(np.array([mfc] * 3), 0, 3), (224, 224, 3))
     
-def save_as_jpg(mfc_3d):
-    scipy.misc.toimage(mfc_3d, cmin=0, cmax=255).save('myvoice.jpg')
+def save_as_jpg(mfc_3d, fpath):
+    scipy.misc.toimage(mfc_3d, cmin=0, cmax=255).save(fpath)
 
-def pipeline(signal):
+def pipeline(wav_fpath, save_fpath):
     
+    sr, signal = scipy.io.wavfile.read(wav_fpath)
+    if kDEBUG:
+        print(signal.shape, signal)
     emphasized_signal = pre_emphasis(signal)
     
     # the following code applies dft, mel filter banks, logging, dct and normalization all at once
@@ -54,4 +59,4 @@ def pipeline(signal):
     )
 
     mfc_3d = reshape(mfc)
-    save_as_jpg(mfc_3d)
+    save_as_jpg(mfc_3d, save_fpath)
