@@ -24,18 +24,17 @@ WAVs are preprocessed using the MFC (mel-frequency cepstrum) pipeline.
 
 You can run `scripts/record_wav.py` in command line to record yourself saying a digit (0-9). 
 
-The recording lasts for one second so you need to say a digit as soon as you see "Speak now!" in the terminal. 
+Despite the fact that the model is trained on spoken digits, it generalizes quite well to spoken words, too.
 
-You can then move the WAV file into `nb/my_wavs`. 
+The recording lasts for one second; you need to say a digit / word shortly after you see "Speak now!" in the terminal. 
+
+You can then move the WAVs you recorded into `nb/my_wavs`. 
 
 Finally, you can run `nbs/04_deploy_model.py` to get classification(s).
 
-Currently, there are 3 WAVs inside `nb/my_wavs`: 
-- `me_nine_femaleLike.wav`, 
-- `mywife_one_maleLike.wav`
-- `mywife_six_maleLike.wav`
+Currently, there are a dozen of WAVs inside `nb/my_wavs`, e.g. "me_eight_male".
 
-These are my wife's and my attempt at confusing the model. They sound too funny.
+There are also a few my wife's and my attempts at confusing the model. 
 
 ## Setup
 
