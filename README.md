@@ -6,7 +6,11 @@
 
 [TODO]
 
-Please read section "Setup" and "Folder structure" first.
+- Please read section "Setup" and "Folder structure" first.
+- Use record.py and maximum duration
+- Instructions on how to use record.py
+- Brainstorm the next few steps.
+
 
 ## Table of content
 
@@ -17,7 +21,7 @@ Please read section "Setup" and "Folder structure" first.
 - Create a new directory.
 - Clone this project (as an independent folder) inside that directory.
 - Clone [AudioMNIST](https://github.com/soerenab/AudioMNIST) (as an independent folder) inside that directory.
-- Install Python packages: tqdm, numpy, scipy, librosa, scikit-image, pytorch, fastai.
+- Install Python packages: sounddevice (for recording wav), tqdm (for progress), numpy, scipy, librosa, scikit-image, pytorch, fastai.
 - This project is written in jupyter notebooks.
 
 ## Folder structure
