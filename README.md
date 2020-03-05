@@ -18,7 +18,7 @@
   * [Feature engineering](#feature-engineering)
   * [Train model](#train-model)
   * [Evaluate model](#evaluate-model)
-  * [Grad-CAM interpretation](#grad-cam-interpretation)
+  * [GradCAM interpretation](#gradcam-interpretation)
 
 ## Project description
 
