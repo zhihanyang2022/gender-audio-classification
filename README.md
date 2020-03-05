@@ -6,7 +6,6 @@ Author: Zhihan Yang @ Carleton College
 
 ## Table of content
 
-- [Speaker Gender Classification](#speaker-gender-classification)
   * [Project description](#project-description)
   * [Record and classify your own voice using this project](#record-and-classify-your-own-voice-using-this-project)
   * [Setup](#setup)
