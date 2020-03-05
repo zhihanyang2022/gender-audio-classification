@@ -123,7 +123,7 @@ def pipeline(signal):
 - Confusion matrix: <img src='./pngs/confusion_matrix.png' width=200>
 - F1 score: 0.973
 
-## Grad-CAM interpretation
+## GradCAM interpretation
 
 Visualize the mean GradCAM result for each class. I've reshaped the GradCAMs to the shape of the MFCs. It seems to me that, for female, the model's attention cloud is slightly higher up in terms of frequency bin. Let's verify this observation by taking the mean (of the mean GradCAM result) across the Frame / Window axis for each class.
 
