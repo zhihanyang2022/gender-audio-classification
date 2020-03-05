@@ -1,16 +1,12 @@
 # Speaker Gender Classification
 
+Author: Zhihan Yang @ Carleton College
+
 <img src='./pngs/ad.png'>
-
-## TODO
-
-- toc: 
-- GradCAM interpretation section
 
 ## Table of content
 
 - [Speaker Gender Classification](#speaker-gender-classification)
-  * [Table of content](#table-of-content)
   * [Project description](#project-description)
   * [Record and classify your own voice using this project](#record-and-classify-your-own-voice-using-this-project)
   * [Setup](#setup)
@@ -126,45 +122,10 @@ def pipeline(signal):
 
 ## Grad-CAM interpretation
 
+Visualize the mean GradCAM result for each class. I've reshaped the GradCAMs to the shape of the MFCs. It seems to me that, for female, the model's attention cloud is slightly higher up in terms of frequency bin. Let's verify this observation by taking the mean (of the mean GradCAM result) across the Frame / Window axis for each class.
 
+<img src='./pngs/mean_grad_cams_for_each_class.png'>
 
+Note that the two plots above are generated using interpolation. GradCAMs have very poor resolution and can't assign an attention value to each of the 12 frequency bins / Mel filter indices. In fact, each GradCAM is only of dimension 7-by-7. This means that the frequency spectrum is re-quantized into 7 frequency bins instead of 12. Nevertheless, the idea is still valid: as we can see from the horizontal bar-plot below, the model does look more at higher frequencies for female examples. This observation aligns with our intuition that female voices are of higher pitch.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src='./pngs/attention_over_freq_for_each_class.png'>
