@@ -4,8 +4,22 @@
 
 ## TODO
 
-- finish README.md folder structure section
-- toc: so that people can see GradCAM interpretation section
+- toc: 
+- GradCAM interpretation section
+
+## Table of content
+
+- [Speaker Gender Classification](#speaker-gender-classification)
+  * [Table of content](#table-of-content)
+  * [Project description](#project-description)
+  * [Record and classify your own voice using this project](#record-and-classify-your-own-voice-using-this-project)
+  * [Setup](#setup)
+  * [Folder structure](#folder-structure)
+  * [Dataset](#dataset)
+  * [Feature engineering](#feature-engineering)
+  * [Train model](#train-model)
+  * [Evaluate model](#evaluate-model)
+  * [Grad-CAM interpretation](#grad-cam-interpretation)
 
 ## Project description
 
