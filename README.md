@@ -34,15 +34,15 @@ WAVs are preprocessed using the MFC (mel-frequency cepstrum) pipeline.
 
 ## Record and classify your own voice using this project
 
-You can run `scripts/record_wav.py` in command line to record yourself saying a digit (0-9). 
+1. You can run `scripts/record_wav.py` in command line to record yourself saying a digit (0-9). 
 
-Despite the fact that the model is trained on spoken digits, it generalizes quite well to spoken words, too.
+2. Despite the fact that the model is trained on spoken digits, it generalizes quite well to spoken words, too.
 
-The recording lasts for one second; you need to say a digit / word shortly after you see "Speak now!" in the terminal. 
+3. The recording lasts for one second; you need to say a digit / word shortly after you see "Speak now!" in the terminal. 
 
-You can then move the WAVs you recorded into `nb/my_wavs`. 
+4. You can then move the WAVs you recorded into `nb/my_wavs`. 
 
-Finally, you can run `nbs/04_deploy_model.py` to get classification(s).
+5. Finally, you can run `nbs/04_deploy_model.py` to get classification(s).
 
 Currently, there are a dozen of WAVs inside `nb/my_wavs`, e.g. "me_eight_male".
 
