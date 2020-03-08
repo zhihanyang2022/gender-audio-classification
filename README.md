@@ -2,7 +2,7 @@
 
 **Author:** Zhihan Yang @ Carleton College
 
-**Keywords:** PyTorch, Neural network, Audio Preprocessing, GradCAM
+**Keywords:** PyTorch, Neural Network, Audio Preprocessing, GradCAM
 
 ---
 
