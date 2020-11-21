@@ -6,7 +6,7 @@
 
 ---
 
-<img src='./pngs/ad.png'>
+<img src='https://i.loli.net/2020/11/21/xmRzYIsLawVquA8.png'>
 
 ## Table of content
 
