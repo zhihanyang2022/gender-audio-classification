@@ -6,7 +6,7 @@
 
 ---
 
-<img src='https://i.loli.net/2020/11/21/xmRzYIsLawVquA8.png'>
+<img src='https://i.loli.net/2020/11/21/tXu7xwOSBkVRHQn.png'>
 
 ## Table of content
 
@@ -80,7 +80,7 @@ There are also a few my wife's and my attempts at confusing the model.
 - Caution: Since there are only 60 speakers, the training and validation sets overlap in terms of speakers (but not specific instances of speech). Future work should make sure that the training and validation sets do not overlap even in terms of speakers.
 - Exploratory data analysis (see `nb/eda.ipynb`):
 
-<img src='./pngs/eda.png'>
+<img src='https://i.loli.net/2020/11/21/imH1EX2DIWxonpd.png'>
 
 ## Feature engineering
 
@@ -120,15 +120,15 @@ def pipeline(signal):
 ## Evaluate model
 
 - Error rate: 1.07%
-- Confusion matrix: <img src='./pngs/confusion_matrix.png' width=200>
+- Confusion matrix: <img src='https://i.loli.net/2020/11/21/xz4ymI8diUstWAq.png' width=200>
 - F1 score: 0.973
 
 ## GradCAM interpretation
 
 Visualize the mean GradCAM result for each class. I've reshaped the GradCAMs to the shape of the MFCs. It seems to me that, for female, the model's attention cloud is slightly higher up in terms of frequency bin. Let's verify this observation by taking the mean (of the mean GradCAM result) across the Frame / Window axis for each class.
 
-<img src='./pngs/mean_grad_cams_for_each_class.png'>
+<img src='https://i.loli.net/2020/11/21/OmgfdthlHbo2GnD.png'>
 
 Note that the two plots above are generated using interpolation. GradCAMs have very poor resolution and can't assign an attention value to each of the 12 frequency bins / Mel filter indices. In fact, each GradCAM is only of dimension 7-by-7. This means that the frequency spectrum is re-quantized into 7 frequency bins instead of 12. Nevertheless, the idea is still valid: as we can see from the horizontal bar-plot below, the model does look more at higher frequencies for female examples. This observation aligns with our intuition that female voices are of higher pitch.
 
-<img src='./pngs/attention_over_freq_for_each_class.png'>
+<img src='https://i.loli.net/2020/11/21/E9dN83nqvFS54R2.png'>
