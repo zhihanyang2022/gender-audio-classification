@@ -46,7 +46,7 @@ WAVs are preprocessed using the MFC (mel-frequency cepstrum) pipeline.
 
 Currently, there are a dozen of WAVs inside `nb/my_wavs`, e.g. "me_eight_male".
 
-There are also a few my wife's and my attempts at confusing the model. 
+There are a few WAVs from me and a female friend of mine trying to fool the classifier.
 
 ## Setup
 
